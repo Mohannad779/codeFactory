@@ -1,0 +1,56 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Reddit+Sans+Condensed:wght@200..900&display=swap');
+
+.container{
+    width: 800px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-family: "Happy Monkey", system-ui;
+    margin: 0 auto;
+}
+
+p{
+    color: #707070;
+}
+
+li{
+    color: #707070;
+    padding: 5px 0;
+}
+
+header{
+    text-align: center;
+}
+
+h1{
+    color: #DB0038;
+}
+
+h2{
+    color: #3998A3;
+}
+
+h3{
+    color: #474747;
+}
+
+.hero{
+    background-color: #f4f4f4;
+    text-align: center;
+    text-shadow: 0 10px 10px;
+    padding: 0 50px;
+}
+
+img{
+    width: 100%;
+}
+
+span{
+    color: #f4b400;
+    size: 25px;
+}
+
+footer{
+    text-align: center;
+    font-family: "Happy Monkey", system-ui;
+}

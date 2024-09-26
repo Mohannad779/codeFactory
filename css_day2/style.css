@@ -1,0 +1,83 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Reddit+Sans+Condensed:wght@200..900&display=swap');
+</style>
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(10, 65, 65);
+    min-height: 150vh;
+}
+
+.sticky{
+    position: sticky;
+    top: 0;
+    background-color: black;
+    padding: .5rem;
+    margin: .5rem;
+    box-shadow: inset 3px 3px 15px 0 rgb(136, 112, 112);
+    z-index: 1;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    background-color: blueviolet;
+    padding: .5rem;
+    margin-right: 1rem;
+}
+
+.relative{
+    height: 350px;
+    background-color: rgb(36, 26, 26);
+    position: relative;
+}
+
+.absolute{
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.582);
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+    padding: 1rem;
+    font-family: "Reddit Sans Condensed", sans-serif;
+    font-weight: 700;
+    text-transform: capitalize;
+    text-shadow: 7px 7px 20px whitesmoke;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+p{
+    color: whitesmoke;
+    width: 70%;
+    margin: 2rem auto;
+    text-indent: 20px;
+    line-height: 20px;
+    letter-spacing: 1px;
+}
+
+.lastp{
+    
+    margin-bottom: 4rem;
+}
+
+.fixed{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color: whitesmoke;
+    background-color: black;
+    padding: 1rem;
+    opacity: .5;
+}

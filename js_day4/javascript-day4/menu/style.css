@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  background: #ecf9ff;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+.sidebar-toggle {
+  position: fixed;
+  top: 2rem;
+  right: 3rem;
+  font-size: 2rem;
+  background: transparent;
+  border-color: transparent;
+  color: #151965;
+  transition: all 0.5s linear;
+  cursor: pointer;
+}
+
+.sidebar-toggle:hover {
+  color: #146c94;
+}
+
+.sidebar {
+  background: #82aae3;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width:30%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: all 0.5s linear;
+  /* transform: translate(-100%); */
+}
+
+
+.sidebar-header {
+  margin-left: auto;
+  padding: 1rem 1.5rem;
+}
+.close-btn {
+  font-size: 1.75rem;
+  background: transparent;
+  border-color: transparent;
+  transition: all 0.5s linear;
+  cursor: pointer;
+  color: #151965;
+}
+.close-btn:hover {
+  color: #146c94;
+  transform: rotate(360deg);
+}
+.links a {
+  display: block;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  padding: 1rem 2.5rem;
+  color: #fff;
+  transition: all 0.5s linear;
+}
+.links a:hover {
+  color: #146c94;
+  padding-left: 1.75rem;
+}
+
+@media screen and (max-width: 676px) {
+  .sidebar {
+    width: 100%;
+  }
+}
+

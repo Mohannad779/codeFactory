@@ -1,0 +1,20 @@
+[
+    {
+        "title": "Javascript for Dummies",
+        "author": "Dummy Dumb Dumb",
+        "image": "https://cdn.pixabay.com/photo/2015/04/23/17/41/javascript-736400_640.png",
+        "read": false
+    },
+    {
+        "title": "Learning Python",
+        "author": "John Doe",
+        "image": "https://cdn.pixabay.com/photo/2023/04/27/21/25/circuit-7955446_1280.png",
+        "read": true
+    },
+    {
+        "title": "The Art of Web Development",
+        "author": "Jane Smith",
+        "image": "https://cdn.pixabay.com/photo/2016/12/28/09/36/web-1935737_1280.png",
+        "read": false
+    }
+]

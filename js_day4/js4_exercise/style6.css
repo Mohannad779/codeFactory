@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.player-one, .player-two {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.player-one h2, .player-two h2 {
+    margin-top: 0;
+    font-weight: bold;
+    color: #337ab7;
+}
+
+.lead {
+    font-size: 24px;
+    font-weight: bold;
+    color: #337ab7;
+    margin-bottom: 10px;
+}
+
+#winner-announcement {
+    font-size: 36px;
+    font-weight: bold;
+    color: #337ab7;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Responsive layout */
+@media (max-width: 768px) {
+    .player-one, .player-two {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 480px) {
+    .player-one, .player-two {
+        padding: 10px;
+    }
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dice Game</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style6.css" />
+  </head>
+  <body>
+    <header>
+      <h1 id="header-title"></h1>
+    </header>
+    <main class="container">
+      <div class="row">
+        <div class="col-md-6 player-one">
+          <h2 id="player-one-name"></h2>
+          <button id="roll-btn-one" class="btn btn-primary">Roll</button>
+          <p id="roll-result-one" class="lead"></p>
+        </div>
+        <div class="col-md-6 player-two">
+          <h2 id="player-two-name"></h2>
+          <button id="roll-btn-two" class="btn btn-primary">Roll</button>
+          <p id="roll-result-two" class="lead"></p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <h2 id="winner-announcement"></h2>
+        </div>
+      </div>
+    </main>
+    <script src="script6.js"></script>
+  </body>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Form Example</title>
+    <style>
+      .green {
+        color: green;
+      }
+      .red {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Form Example</h1>
+    <form id="myForm">
+      <label for="firstname">Firstname:</label>
+      <input type="text" id="firstname" name="firstname" /><br /><br />
+      <label for="lastname">Lastname:</label>
+      <input type="text" id="lastname" name="lastname" /><br /><br />
+      <label for="age">Age:</label>
+      <input type="number" id="age" name="age" /><br /><br />
+      <label for="profession">Profession:</label>
+      <select id="profession" name="profession">
+        <option value="">Select a profession</option>
+        <option value="IT">IT</option>
+        <option value="hospitality">Hospitality</option>
+        <option value="education">Education</option>
+        <option value="healthcare">Healthcare</option>
+        <option value="finance">Finance</option></select
+      ><br /><br />
+      <input type="submit" value="Submit" />
+    </form>
+    <div id="result"></div>
+
+    <script>
+      const form = document.getElementById("myForm");
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        const firstname = document.getElementById("firstname").value;
+        const lastname = document.getElementById("lastname").value;
+        const age = document.getElementById("age").value;
+        const profession = document.getElementById("profession").value;
+
+        const resultDiv = document.getElementById("result");
+        resultDiv.innerHTML = `
+        <p style="color: ${
+          firstname.length > 5 ? "green" : "red"
+        }">Firstname: ${firstname}</p>
+        <p>Lastname: ${lastname}</p>
+        <p>Age: ${age}</p>
+        <p>Profession: ${profession}</p>
+      `;
+
+        switch (profession) {
+          case "IT":
+            resultDiv.style.backgroundColor = "purple";
+            break;
+          case "hospitality":
+            resultDiv.style.backgroundColor = "yellow";
+            break;
+          case "education":
+            resultDiv.style.backgroundColor = "blue";
+            break;
+          case "healthcare":
+            resultDiv.style.backgroundColor = "green";
+            break;
+          case "finance":
+            resultDiv.style.backgroundColor = "orange";
+            break;
+          default:
+            resultDiv.style.backgroundColor = "white";
+        }
+      });
+    </script>
+  </body>
+</html>

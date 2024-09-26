@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.header {
+    text-align: start;
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.serving-info {
+    font-weight: 600;
+    margin-bottom: 10px;
+    border-bottom: 13px solid black;
+}
+
+.side{
+    display: flex;
+    justify-content: end;
+    font-weight: 400;
+}
+
+.table {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    border-bottom: 1px solid #ccc;
+    padding: 5px;
+}
+
+.row:last-child {
+    border-bottom: none;
+}
+
+.thinline{
+    border: 1px solid black;
+}
+
+.fatline{
+    border: .5rem solid black;
+}
+
+.label {
+    font-weight: bold;
+    width: 70%;
+}
+
+.value {
+    width: 15%;
+    text-align: right;
+}
+
+.label2 {
+    width: 40%;
+}
+
+.value2{
+    width: 20%;
+}
+
+.last{
+text-align: end;
+}
+
+.footnote {
+    font-size: 0.8em;
+    margin-top: 10px;
+}
+
+.footnote-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 5px;
+}
+
+.footnote-table th,
+.footnote-table td {
+    text-align: left;
+    padding: 5px;
+}
+
+.footnote-table th {
+    font-weight: bold;
+}
+
+.footnote-table td:nth-child(2) {
+    text-align: center;
+}
+
+.footnote-table td:nth-child(3) {
+    text-align: center;
+}
+
+.margin {
+    margin-left: 15px;
+}
+
+.padding {
+padding-left: 15px;
+}

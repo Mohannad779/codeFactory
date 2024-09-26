@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div{
+    border: 1px solid red;
+    width: min(50rem, calc(100% - 4rem));
+    margin-inline: auto;
+    height: 500px;
+    margin-top: 4rem;
+}
+
+
+body{
+    background-image: url("https://cdn.pixabay.com/photo/2017/08/06/06/43/pizza-2589575_640.jpg");
+}
+
+.img{
+    
+    background-image: url("https://cdn.pixabay.com/photo/2016/11/12/14/07/dolphin-1818853_640.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.gradient{
+    /* background-image: linear-gradient( transparent, red, yellow, blue); */
+
+    /* background-image: radial-gradient(red, blue); */
+/* background-color: red; */
+    background-image: conic-gradient( from 330deg at 50% 100%, #ff11f7, transparent );
+    
+    /* background-size: 5rem;
+    background-repeat: no-repeat;
+    background-position: 10rem 0rem; */
+    transition: background-position 30ms linear;
+    transform: 300ms linear;
+}
+
+.gradient:hover{
+    background-position: 20rem 0rem;
+    transform: scale(1.1);
+    rotate: 20deg;
+}

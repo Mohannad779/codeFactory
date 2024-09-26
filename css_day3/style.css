@@ -1,0 +1,47 @@
+:root{
+    --primary-clr:tomato;
+    --padding : 0.5rem;
+    --delay: 250ms;
+    --font-family: 
+}
+
+div{
+   /* width: min(100%, 40rem) */
+    width: 100%;
+    min-width: 400px;
+    max-width: 450px;
+    height: 400px;
+    border: 1px solid var(--primary-clr);
+    margin: 0 auto;
+}
+div:last-of-type{
+    background-color: tomato;
+}
+button:active{
+    background-color: red;
+}
+button:hover{
+    color: firebrick;
+}
+
+a{
+    color: black;
+}
+a:visited{
+    color: firebrick;
+}
+a:hover{
+    background-color: beige;
+}
+a:active{
+    color: blueviolet;
+}
+p::first-line{
+    color: blue;
+}
+input::placeholder{
+    color: red;
+}
+a:focus{
+    background-color: yellowgreen;
+}

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Let us learn about meta tags" />
+    <meta name="auther" content="codefactory" />
+    <title>html - day2</title>
+  </head>
+  <body>
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/cwenLWoeItQ?si=R1MYG8WanK8EN97_"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen
+    ></iframe>
+
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d21274.030052035985!2d16.36028365!3d48.201727999999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476d0799bf2006df%3A0x8685168014c4425f!2sHofburg!5e0!3m2!1sen!2sat!4v1725435376746!5m2!1sen!2sat"
+      width="600"
+      height="450"
+      style="border: 0"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+    ></iframe>
+
+    <table border="1">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Price</th>
+          <th>Quantity</th>
+        </tr>
+      </thead>
+
+      <tr>
+        <td>Bag</td>
+        <td>50</td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td>Jacket</td>
+        <td>100</td>
+        <td>5</td>
+      </tr>
+    </table>
+    <h1>Form</h1>
+    <form action="">
+      <label for="username">username</label>
+      <input type="text" name="username" placeholder="username" id="username" />
+      <br />
+      <br />
+      <label for="password">password</label>
+      <input
+        type="password"
+        name="password"
+        placeholder="password"
+        id="password"
+      />
+      <br />
+      <br />
+      <p>Select your hobbies:</p>
+      <input type="checkbox" name="hobbies" value="reading" />Reading
+      <br />
+      <input type="checkbox" name="hobbies" value="reading" />Traveling
+      <br />
+      <input type="checkbox" name="hobbies" value="reading" />swiming
+      <br />
+      <p>Select your favorite food</p>
+      <input type="radio" name="fruit" value="apple" />Apple
+      <input type="radio" name="fruit" value="banana" />Banana
+      <input type="radio" name="fruit" value="orange" />Orange
+      <br />
+      <br />
+
+      <label for="country">choose your country</label>
+      <select name="country" id="country">
+        <option value="usa">USA</option>
+        <option value="canada">Canada</option>
+        <option value="uk">UK</option>
+        <option value="others">others</option>
+      </select>
+
+      <br />
+      <br />
+      <label for="comments">Your feedback</label>
+      <br />
+      <br />
+      <textarea name="comments" id="comments" rows="4" cols="50"></textarea>
+      <br />
+      <br />
+      <button type="submit">Sumbit</button>
+    </form>
+  </body>
+</html>

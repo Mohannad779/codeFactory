@@ -1,0 +1,44 @@
+
+
+
+.face{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+.ear{
+    width: 60px; 
+    position: absolute;
+    top: 65px;
+    right: 276px;
+}
+
+
+.eye{
+    overflow: auto;
+    position: absolute;
+    top: 327px;
+}
+
+.nose{
+    width: 30px; 
+ 
+}
+
+
+.moustache{
+    width: 80px; 
+    
+}
+
+
+.mouth{
+    width: 60px; 
+    position: absolute;
+    top: 800px;
+    left: 298px;
+}

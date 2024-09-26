@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f7f8fa;
+    color: #333;
+    line-height: 1.6;
+}
+
+nav {
+    background-color: rgb(109, 141, 151);
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+}
+
+.navbar li {
+    display: inline;
+}
+
+.navbar li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.navbar li a:hover {
+    background-color: #575757;
+}
+
+.hero{
+    background-color: #fa8edf;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.hero h1{
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.hero p{
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+.cta-buttons{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.cta{
+    background-color: #f0e6e6;
+    color: #c2b011;
+    padding: 15px 25px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 30px;
+    transition: background-color 0.3s ease;
+}
+
+.cta:hover{
+    background-color: #ffd9c2;
+}
+
+.services{
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 20px;
+    background-color: #e0f7fa;
+}
+
+.service{
+    text-align: center;
+    width: 45%;
+}
+
+.service h2{
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.service p{
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.service-btn {
+    background-color: #00796b;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 25px;
+    transition: background-color 0.3s ease;
+  }
+
+  .service-btn:hover {
+    background-color: #48a999;
+  }
+  
+  .usage {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #ffca67;
+  }
+  
+  .usage h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .usage-tracker {
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    display: inline-block;
+  }
+  
+  .usage-btn {
+    display: block;
+    margin-top: 20px;
+    background-color: #fc9b4b;
+    color: rgb(221, 191, 191);
+    padding: 10px 25px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 25px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .usage-btn:hover {
+    background-color: #ffd9c2;
+  }
+  
+  .footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+  }

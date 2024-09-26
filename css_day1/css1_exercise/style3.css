@@ -1,0 +1,96 @@
+/* External CSS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 90%;
+    font-family: "open sans", sans-serif;
+    margin: auto;
+}
+
+.hr1{
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid black;
+    padding: 0;
+}
+
+.news-link{
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    width: 150px;
+    padding: 5px;
+    margin-left: 30px;
+}
+
+h1{
+    font-size: 100px;
+    font-weight: 400;
+    text-align: center;
+    margin: 0;
+}
+
+.john{
+    font-size: 20px;
+    font-weight: 300;
+    margin: 0;
+}
+
+.ad{
+   font-size: 20px;
+   text-align: center;
+   letter-spacing: 2px;
+   font-style: italic;
+   background-color: black;
+   color: white;
+   width: 85%;
+   margin: auto;
+}
+
+span{
+    color: teal;
+    font-family: "Roboto slab",serif;
+    font-weight: 900;
+}
+
+.date{
+    float: left;
+    font-weight: 500;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.edition{
+    float: right;
+    font-weight: 500;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.hr2{
+    margin-top: 40px;
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid black;
+    padding-left: 0;
+}
+
+.container{
+    display: grid;
+    grid-gap: 40px;
+}
+
+.summary{
+   font-size: 30px; 
+
+}
+
+p{
+    font-size: 20px;
+}
