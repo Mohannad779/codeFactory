@@ -1,0 +1,33 @@
+.img{
+    width: 100%;
+    height: 500px;
+    /* border: 2px solid lime; */
+    margin-inline: auto;
+    background-image: url(https://cdn.pixabay.com/photo/2022/06/07/14/15/food-7248455_1280.png);
+    background-size: contain;
+    background-position: center 35%;
+    background-repeat: no-repeat;
+   
+}
+
+.sortBtnWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+.grid > * {
+    height: 200px;
+    border: 1px solid black;
+}
+.grid > *:first-child{
+   grid-column: 1/ 4;
+}
+

@@ -1,0 +1,89 @@
+[
+    {
+    "firstName": "Sponge",
+    "lastName": "Bob",
+    "age": 18,
+    "isStudent": true,
+    "courses": ["FrontEnd", "Python"],
+    "address": {
+      "city": "Bikini Bottom",
+      "zipcode": "10001"
+    },
+    "grades": [
+        {
+            "subject": "FrontEnd",
+            "grades": [40, 60, 80],
+            "certified" : true
+        },
+        {
+            "subject": "Python",
+            "grades": [40, 35],
+            "certified" : false
+        }
+    ]
+},
+{
+    "firstName": "Patrick",
+    "lastName": "Star",
+    "age": 22,
+    "isStudent": false,
+    "courses": ["BasicJS"],
+    "address": {
+        "city": "Bikini Bottom",
+        "zipcode": "10002"
+    },
+    "grades": [
+        {
+            "subject": "BasicJS",
+            "grades": [2, 10],
+            "certified": false
+        }
+    ]
+},
+{
+    "firstName": "Sandy",
+    "lastName": "Cheeks",
+    "age": 25,
+    "isStudent": false,
+    "courses": ["fullStack", "Java"],
+    "address": {
+        "city": "Bikini Bottom",
+        "zipcode": "10003"
+    },
+    "grades": [
+        {
+            "subject": "FullStack",
+            "grades": [100, 100, 100],
+            "certified": true
+        },
+        {
+            "subject": "Java",
+            "grades": [100, 100, 100],
+            "certified": true
+        }
+    ]
+},
+{
+    "firstName": "Squidward",
+    "lastName": "Tentacles",
+    "age": 30,
+    "isStudent": true,
+    "courses": ["Music", "Art"],
+    "address": {
+        "city": "Bikini Bottom",
+        "zipcode": "10004"
+    },
+    "grades": [
+        {
+            "subject": "Music",
+            "grades": [70, 75, 80],
+            "certified": true
+        },
+        {
+            "subject": "Art",
+            "grades": [60, 65],
+            "certified": false
+        }
+    ]
+}
+]
