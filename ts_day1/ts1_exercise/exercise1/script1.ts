@@ -31,7 +31,7 @@ array.forEach(() => {
     }
   };
 
-  setTimeout(printLastName,500)
+  setTimeout(printLastName,5000)
 
 // Ex3
 let Names: string[] = ["John", "Jane", "Alex", "Emily", "Chris"];
